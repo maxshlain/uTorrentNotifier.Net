@@ -1,0 +1,6 @@
+C:\Max\Dev\GitHub\uTorrentDotNetNotifier\uTorrentNotifier.Net\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Max\Dev\GitHub\uTorrentDotNetNotifier\uTorrentNotifier.Net\bin\Debug\uTorrentNotifier.Net.exe
+C:\Max\Dev\GitHub\uTorrentDotNetNotifier\uTorrentNotifier.Net\bin\Debug\uTorrentNotifier.Net.pdb
+C:\Max\Dev\GitHub\uTorrentDotNetNotifier\uTorrentNotifier.Net\obj\x86\Debug\uTorrentNotifier.Net.exe
+C:\Max\Dev\GitHub\uTorrentDotNetNotifier\uTorrentNotifier.Net\obj\x86\Debug\uTorrentNotifier.Net.pdb
+C:\Max\Dev\GitHub\uTorrentDotNetNotifier\uTorrentNotifier.Net\bin\Debug\uTorrentNotifier.Net.exe.config
