@@ -32,8 +32,11 @@ namespace uTorrentNotifier.Net
 					}
 					else 
 					{
-						SimpleMailConfig config = BuildSmptpConfig();
-						Notificator.SendNotification(moduleName, message, config);
+						//SimpleMailConfig config = BuildSmptpConfig();
+						//Notificator.SendNotification_viaEmail(moduleName, message, config);
+
+                        SimpleTwitterConfig config = BuildSimpleTwitterConfig();
+                        Notificator.SendNotification_viaTwitter(moduleName, message, config);
 					}
 					
 				}
@@ -71,6 +74,29 @@ namespace uTorrentNotifier.Net
 
 			return resultConfig;
 		}
+
+        static SimpleTwitterConfig BuildSimpleTwitterConfig() 
+        {
+            SimpleTwitterConfig resConfig = new SimpleTwitterConfig();
+            resConfig.BodyPattern = ConfigurationManager.AppSettings["BodyPattern"];
+            resConfig.Autorized = false;
+
+            resConfig.AppConsumerKey = ConfigurationManager.AppSettings["tw_AppConsumerKey"];
+            resConfig.AppConsumerSecret = ConfigurationManager.AppSettings["tw_AppConsumerSecret"];
+
+            resConfig.AccessToken = ConfigurationManager.AppSettings["tw_AccessToken"];
+            resConfig.AccessTokenSecret = ConfigurationManager.AppSettings["tw_AccessTokenSecret"];
+            resConfig.AccessPin = ConfigurationManager.AppSettings["tw_AccessPin"];
+
+            resConfig.Autorized = (!(string.IsNullOrEmpty(resConfig.AppConsumerKey)
+                                    || string.IsNullOrEmpty(resConfig.AppConsumerKey)
+                                    || string.IsNullOrEmpty(resConfig.AppConsumerSecret)
+                                    || string.IsNullOrEmpty(resConfig.AccessToken)
+                                    || string.IsNullOrEmpty(resConfig.AccessTokenSecret)
+                                    /*|| string.IsNullOrEmpty(resConfig.AccessPin)*/));
+
+            return resConfig;
+        }
 
 	}
 }

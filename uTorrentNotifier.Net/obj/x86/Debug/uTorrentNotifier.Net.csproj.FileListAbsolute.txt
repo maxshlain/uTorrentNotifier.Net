@@ -4,3 +4,16 @@ C:\Max\Dev\GitHub\uTorrentDotNetNotifier\uTorrentNotifier.Net\bin\Debug\uTorrent
 C:\Max\Dev\GitHub\uTorrentDotNetNotifier\uTorrentNotifier.Net\obj\x86\Debug\uTorrentNotifier.Net.exe
 C:\Max\Dev\GitHub\uTorrentDotNetNotifier\uTorrentNotifier.Net\obj\x86\Debug\uTorrentNotifier.Net.pdb
 C:\Max\Dev\GitHub\uTorrentDotNetNotifier\uTorrentNotifier.Net\bin\Debug\uTorrentNotifier.Net.exe.config
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\bin\Debug\uTorrentNotifier.Net.exe.config
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\obj\x86\Debug\uTorrentNotifier.Net.exe
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\obj\x86\Debug\uTorrentNotifier.Net.pdb
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\obj\x86\Debug\uTorrentNotifier.Net.EnterPin.resources
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\bin\Debug\uTorrentNotifier.Net.exe
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\bin\Debug\uTorrentNotifier.Net.pdb
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\bin\Debug\Newtonsoft.Json.dll
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\bin\Debug\Twitterizer2.Asynchronous.dll
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\bin\Debug\Twitterizer2.dll
+C:\Max\Dev\GitHub\uTorrentNotifier.Net\uTorrentNotifier.Net\bin\Debug\Twitterizer2.Streaming.dll
