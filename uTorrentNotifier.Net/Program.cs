@@ -34,8 +34,18 @@ namespace uTorrentNotifier.Net
 					{
 						//SimpleMailConfig config = BuildSmptpConfig();
 						//Notificator.SendNotification_viaEmail(moduleName, message, config);
-
+                        
                         SimpleTwitterConfig config = BuildSimpleTwitterConfig();
+                        
+                        foreach (string splitStr in config.SkipStringList)
+                        {
+                            if (moduleName.ToLower().Contains(splitStr.ToLower()))
+                            {
+                                return;
+                            }
+                        }
+
+                        
                         Notificator.SendNotification_viaTwitter(moduleName, message, config);
 					}
 					
@@ -94,6 +104,15 @@ namespace uTorrentNotifier.Net
                                     || string.IsNullOrEmpty(resConfig.AccessToken)
                                     || string.IsNullOrEmpty(resConfig.AccessTokenSecret)
                                     /*|| string.IsNullOrEmpty(resConfig.AccessPin)*/));
+
+            string valStr = ConfigurationManager.AppSettings["SkipStrings"];
+            valStr = string.IsNullOrEmpty(valStr) ? "" : valStr;
+            string[] split = valStr.Split(new Char[] { '|' });
+
+            if ((null != split) && (split.Length > 0))
+            {
+                resConfig.SkipStringList.AddRange(split);
+            }
 
             return resConfig;
         }

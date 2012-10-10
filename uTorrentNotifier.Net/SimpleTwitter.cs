@@ -120,6 +120,12 @@ namespace uTorrentNotifier.Net
         public string AccessTokenSecret;
         public string AccessPin;
         public string BodyPattern;
+        public List<string> SkipStringList;
+
+        public SimpleTwitterConfig()
+        {
+            SkipStringList = new List<string>();
+        }
     }
 
     
